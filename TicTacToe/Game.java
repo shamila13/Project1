@@ -88,7 +88,7 @@ public class Game {
         for(int i=0;i<sz;i++){
             StringBuilder sb=new StringBuilder();
             for(int j=0;j<sz;j++){
-                sb.append(board.matrix[i][j])
+                sb.append(board.matrix[i][j]);
             }
         String pattern=sb.toString();
         if(pattern.equals(zero) || pattern.equals(cross))
@@ -97,7 +97,7 @@ public class Game {
         for(int i=0;i<sz;i++){
             StringBuilder sb=new StringBuilder();
             for(int j=0;j<sz;j++){
-                sb.append(board.matrix[j][i])
+                sb.append(board.matrix[j][i]);
             }
         String pattern=sb.toString();
         if(pattern.equals(zero) || pattern.equals(cross))
