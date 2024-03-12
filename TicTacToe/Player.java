@@ -36,7 +36,7 @@ public void setPlayerNameAndSymbol(String name,char symbol){
 public String getPlayerName(){
     return this.name;
 }
-public String getPlayerSymbol(){
+public char getPlayerSymbol(){
     return this.symbol;
 }
 public void getPlayerNameAndAge(){
