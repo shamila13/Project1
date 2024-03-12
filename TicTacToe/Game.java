@@ -73,11 +73,11 @@ public class Game {
             int column=pos%sz;
 
             if(row<0 || row>=sz || column<0 || column>=sz){
-                System.out.print("Invalid position");
+                System.out.println("Invalid position");
                 continue;
             }
             if(board.matrix[row][column]!='-'){
-                System.out.print("Position already occupied");
+                System.out.println("Position already occupied");
                 continue;
             }
             return pos;
